@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{WISATA_TITLE}}</title>
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1>{{HERO_TITLE}}</h1>
+            <p>{{HERO_SUBTITLE}}</p>
+            <a href="#fasilitas" class="btn-primary">Jelajahi Sekarang</a>
+        </div>
+    </header>
+
+    <main class="container" id="fasilitas">
+        <section class="facilities-section">
+            <div class="section-header">
+                <h2>Fasilitas & Layanan Kami</h2>
+                <p>Pengalaman tak terlupakan menanti Anda di setiap sudut Kamwis Demangan.</p>
+            </div>
+            
+            <div class="facilities-grid">
+                {{FACILITIES}}
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2026 Kampung Wisata Demangan. Dibuat dengan Java Static Generator.</p>
+        </div>
+    </footer>
+</body>
+</html>
